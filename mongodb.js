@@ -1,7 +1,7 @@
 const mongodb = require('mongodb');
 const MongoClient = mongodb.MongoClient;
 
-const connectionURL = 'mongodb://127.0.0.1:27017'
+const connectionURL = 'mongodb+srv://vanejewels:mGrqZZrI5NsiD698@cluster0.5qyhv.mongodb.net/test'
 
 const databaseName = 'vane-jewels';
 
