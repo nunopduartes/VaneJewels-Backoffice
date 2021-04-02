@@ -1,0 +1,58 @@
+BACKOFFICE VJ
+
+Limite
+
+19 Março, Sexta Feira
+Até 22 dá para entregar mas com -1 valor
+
+Duvidas
+
+- Front e Back ligarem-se à mesma DB?
+- Fazer o backend de FO ou BO?
+- Que API externa a consumir?
+
+Rotas FO:
+
+- GET /products/:id
+- GET /products
+- GET /products? (Filtros)
+- GET /profile (AUTH JWT)
+- GET /cart
+- GET /about
+- POST /register (EMAIL)
+- POST /logout
+- POST /logout?all=true (logout de todos?)
+- POST /cart (EMAIL)
+- PATCH /profile (EMAIL)
+- PATCH /cart
+
+Rotas BO: 
+- GET /customers
+- GET /products
+- GET /products/collections
+- GET /products/:id
+- PATCH /products/:id
+- PATCH /customers
+
+Objetivos
+
+- Fazer chamadas à DB
+- Usar MongoDB
+- Ter Autenticação (JWT ou OAuth)
+- Criação de uma DB
+- Envio de emails (Ultima prioridade)
+- Criar uma mini API
+- Fetch de APIs Externas (Um plus)
+- HTML Templating
+- Deployment Heroku, Netfify?
+
+
+
+
+
+
+
+USAR ASYNC AWAIT
+PROMISES
+COMENTÁRIOS NO CÓDIGO
+USAR POSTMAN para exportar coleções de Endpoints para enviar pro Vitor
